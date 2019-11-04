@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
-import App from "./components/App";
 import Header from "./components/Header/Header";
 import Video from "./video/Video";
+import Footer from "./components/Footer/footer";
 
 const Routes = () => (
   <BrowserRouter>
