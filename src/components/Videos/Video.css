@@ -1,0 +1,11 @@
+.video-column {
+}
+
+.video-column img {
+  padding: 10px;
+  vertical-align: middle;
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  align-items: center;
+}
