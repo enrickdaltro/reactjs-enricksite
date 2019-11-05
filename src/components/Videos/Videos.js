@@ -1,10 +1,7 @@
-import React from "react";
-import "./VideoList.css";
+import React, { Component } from "react";
 
-class Video extends React.Component {
+export default class Videos extends Component {
   render() {
-    return <div>Video</div>;
+    return <div>Videos</div>;
   }
 }
-
-export default Video;
