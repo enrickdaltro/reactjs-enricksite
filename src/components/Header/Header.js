@@ -4,22 +4,14 @@ import "./Header.css";
 class Header extends React.Component {
   render() {
     return (
-      <ul className="header-navbar">
-        <li className="left-icon">
-          <a href="#">Enrick Daltro</a>
-        </li>
-        <li className="right-icons">
-          <li>
-            <a href="#">videos</a>
-          </li>
-          <li>
-            <a href="#">photos</a>
-          </li>
-          <li>
-            <a href="#">contact</a>
-          </li>
-        </li>
-      </ul>
+      <nav className="nav-header">
+        <h4>Enrick Daltro</h4>
+        <ul className="nav-items">
+          <li>videos</li>
+          <li>photos</li>
+          <li>contact</li>
+        </ul>
+      </nav>
     );
   }
 }

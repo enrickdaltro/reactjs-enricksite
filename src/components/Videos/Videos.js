@@ -1,9 +1,9 @@
 import React from "react";
-import VideoList from "../components/VideoList/VideoList";
+import "./VideoList.css";
 
 class Video extends React.Component {
   render() {
-    return <VideoList />;
+    return <div>Video</div>;
   }
 }
 
